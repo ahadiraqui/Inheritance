@@ -1,15 +1,18 @@
-class Shape
-{
-    drawShape(name)
+class Shape{
+    constructor(colors)
     {
-        return name;
+        this.colors=colors;
+    }
+    drawShape()
+    {
+        return "this is your shape";
     }
     calculateArea()
     {
         return 0;
     }
-    color(color)
+    color()
     {
-        return color;
+        return this.colors;
     }
- }
+}
